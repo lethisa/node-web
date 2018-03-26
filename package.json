@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lethisa/node-web.git"
+    "url": "git+https://github.com/lethisa/javascript.git"
   },
   "author": "lethisa",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lethisa/node-web/issues"
+    "url": "https://github.com/lethisa/javascript/issues"
   },
-  "homepage": "https://github.com/lethisa/node-web#readme",
+  "homepage": "https://github.com/lethisa/javascript#readme",
   "dependencies": {
     "express": "^4.16.3",
     "hbs": "^4.0.1"

@@ -61,7 +61,7 @@ app.get('/', (req, res) => {
   //   ]
   // });
   res.render('home.hbs', {
-    pageTitle: 'Home Pagex',
+    pageTitle: 'Home Page',
     welcomeMessage: 'Welcome to my website',
     // currentYear: new Date().getFullYear()
   });
@@ -72,10 +72,18 @@ app.get('/about', (req, res) => {
 
   // render from hbs template
   res.render('about.hbs', {
-    pageTitle: 'About Pagex',
+    pageTitle: 'About Page',
     // currentYear: new Date().getFullYear()
   });
 });
+
+// register add new project
+app.get('/projects',(req,res)=>{
+  res.render('projects.hbs',{
+    pageTitle: 'Projects'
+  });
+});
+
 // bad - send back json with errorMessage
 app.get('/bad', (req, res) => {
   res.send({
