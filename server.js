@@ -61,7 +61,7 @@ app.get('/', (req, res) => {
   //   ]
   // });
   res.render('home.hbs', {
-    pageTitle: 'Home Page',
+    pageTitle: 'Home Pagex',
     welcomeMessage: 'Welcome to my website',
     // currentYear: new Date().getFullYear()
   });
@@ -72,7 +72,7 @@ app.get('/about', (req, res) => {
 
   // render from hbs template
   res.render('about.hbs', {
-    pageTitle: 'About Page',
+    pageTitle: 'About Pagex',
     // currentYear: new Date().getFullYear()
   });
 });
